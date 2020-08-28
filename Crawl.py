@@ -63,10 +63,7 @@ def parse():
         while line:
             # if count > 10:
             #     break
-            # if count < 210:
-            #     count+=1
-            #     line = f.readline()
-                # continue
+            
             result = re.findall(ts_pattern,line)
             if result:
                 print(count)
